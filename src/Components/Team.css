@@ -1,0 +1,13 @@
+.container{
+    width:500px;
+    text-align: center;
+}
+.name{
+    text-align: center;
+    font-size: 4em;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.faults{
+    font-size:2em !important;
+}
