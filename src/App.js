@@ -2,7 +2,9 @@ import React,{useState} from 'react'
 import Team from './Components/Team';
 import Timer from 'react-compound-timer';
 import audio from './videoplayback.mp3';
+import Footer from './Components/footer';
 import "./App.css";
+import Eminescu from './Eminescu.png';
 export const App = () => {
   const [score1,setScore1]=React.useState(0);
   const [score2,setScore2]=React.useState(0);
@@ -61,14 +63,14 @@ export const App = () => {
             <div className="clock">
                 
                 
-                <div className="min"><Timer.Minutes /> :
+                <div className="min"><Timer.Minutes /> : 
                 <Timer.Seconds /></div> 
                 <div className="msec">
                 <Timer.Milliseconds />
                 </div> 
             </div>
             <div></div>
-            <br />
+           
             <div>
                 <button className="btn-control" onClick={()=>{setPlay(!play);play?stop():start()}}>{!play?"Start":"Stop"}</button>
                 <button className="btn-control" onClick={reset}>Reset</button>
@@ -77,7 +79,7 @@ export const App = () => {
         </React.Fragment>
     )}
 </Timer>
-<div className="period"><h1>{period}</h1>
+  <div className="period">{/*<img src={Eminescu  }></img>*/}<h1>{period}</h1>
 <button className="reset" onClick={init}>Restart</button>
 </div>
       
@@ -90,6 +92,7 @@ export const App = () => {
             setFaults={setFaults2}
             />
       <audio src={audio}id="audio"></audio>
+      <Footer />
     </div>
     
     

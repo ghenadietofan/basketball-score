@@ -1,0 +1,14 @@
+#footer{
+    position:fixed;
+    left:45%;
+    bottom:0;
+    display:flex;
+    width:auto;
+    margin:10px;
+    height:60px;
+    margin:auto;
+    text-align:center;
+    opacity:0.14;
+    color:rgb(138, 138, 138);
+    cursor:default;
+}

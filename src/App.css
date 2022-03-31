@@ -6,17 +6,19 @@
 #container{
     display:flex;
     justify-content:center;
-    padding:10px;
+    padding:10px ;
+    padding-top:120px;
 }
 #timer{
     text-align: center;
     width:400px;
-    margin-top:100px;
+    
 }
 .clock{
     display:flex;
     justify-content:center;
     width:100%;
+
 }
 .min{
     font-size: 10em;
@@ -46,4 +48,10 @@
 }
 .period{
     font-size:2em;
+    align-items:center;
+}
+.period img{
+    width:200px;
+    text-align: center;
+    
 }
