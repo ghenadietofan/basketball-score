@@ -43,7 +43,7 @@ export const App = () => {
              />
         <div id="timer">
         <Timer
-    initialTime={600000}
+    initialTime={1000}
     startImmediately={false}
     direction="backward"
     timeToUpdate={10}
