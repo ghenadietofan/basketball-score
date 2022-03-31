@@ -43,7 +43,7 @@ export const App = () => {
              />
         <div id="timer">
         <Timer
-    initialTime={1000}
+    initialTime={600000}
     startImmediately={false}
     direction="backward"
     timeToUpdate={10}
@@ -52,6 +52,7 @@ export const App = () => {
         console.log("time's up!");
         console.log(period);
         var audio =document.getElementById('audio');
+        audio.volume =1.0;
         console.log(audio);
         audio.play();
         
