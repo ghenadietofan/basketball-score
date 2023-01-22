@@ -73,7 +73,7 @@ export const App = () => {
             <div></div>
            
             <div>
-                <button className="btn-control" onClick={()=>{setPlay(!play);play?stop():start()}}>{!play?"Start":"Stop"}</button>
+                <button className="btn-control"  onClick={()=>{setPlay(!play);play?stop():start()}}>{!play?"Start":"Stop"}</button>
                 <button className="btn-control" onClick={reset}>Reset</button>
                 <button className="btn-control" onClick={()=>{setPlay(false);increment();reset();}}>End</button>
             </div>

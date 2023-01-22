@@ -10,7 +10,7 @@
     "react-compound-timer": "^1.2.0",
     "react-countdown": "^2.3.2",
     "react-dom": "^18.0.0",
-    "react-scripts": "5.0.0",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
